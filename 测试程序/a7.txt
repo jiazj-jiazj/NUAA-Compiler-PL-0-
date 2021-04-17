@@ -1,0 +1,7 @@
+extra
+program jzj;            
+var sum;
+begin
+   sum:1
+end
+not end

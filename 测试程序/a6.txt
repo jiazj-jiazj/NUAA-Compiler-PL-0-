@@ -1,0 +1,38 @@
+program xi;
+const a:=5;
+var sum,x,x;
+	procedure sum1(x);
+	var j;
+	begin
+		m:=1;
+		j:=1;
+		i:=2;
+		sum:=0;
+		while j<=x do
+		begin
+			sum:=sum+j;
+			j:=j+1
+		end;
+		write(sum)
+	end;
+	procedure sum2(x);
+	var j,m;
+	begin
+		j:=1;
+		i:=2;
+		sum:=0;
+		while j<=x do
+		begin
+			sum:=sum+j;
+			j:=j+1
+		end;
+		write(sum)
+	end
+
+begin
+	read(x);        
+	write(x);
+	read(j);                       
+	call sum1(j+1,2);
+	write(j)	
+end
